@@ -22,7 +22,7 @@ public class Bmi {
         height=heightInInches*0.0254;
 
         System.out.println("how much do you weight pounds?");
-        weight =sc.nextDouble();
+        weight =sc.nextDouble()*0.453592;
 
 
 
